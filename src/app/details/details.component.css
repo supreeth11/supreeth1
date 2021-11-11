@@ -47,5 +47,16 @@ h1{
 
 }
 button{
-    color: black;background-color:white;
+    color: white;background-color:red;
+}
+button[disabled],
+
+button.disabled {
+
+    color: white;
+
+    background: grey !important;
+
+    border: 1px solid #CCC;
+
 }
